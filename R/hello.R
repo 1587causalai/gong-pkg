@@ -17,5 +17,5 @@ hello <- function() {
 #' @export
 
 JustATestPlot <- function() {
-  ggplot2::ggplot(data = NULL, aes(x = 1:9, y = 1:9)) + geom_point()
+  ggplot2::ggplot(data = NULL, ggplot2::aes(x = 1:9, y = 1:9)) + ggplot2::geom_point()
 }
